@@ -1,0 +1,12 @@
+version: "2"
+services:
+  node:
+    image: micro_service_upload
+    build: ./micro_service_upload
+    command: npm start
+    ports:
+      - "3000:3000"
+   
+
+      
+    
